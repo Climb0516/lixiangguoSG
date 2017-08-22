@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChongZhiViewController">
+            <connections>
+                <outlet property="accountLabel" destination="ZJi-Lq-q5g" id="UGq-9s-W65"/>
+                <outlet property="buyBtn" destination="zID-pz-e8z" id="9Gb-Q4-ujE"/>
+                <outlet property="eightBtn" destination="nGd-qV-Nvq" id="HPd-Oj-u7H"/>
+                <outlet property="fiveBtn" destination="Iif-f4-PCH" id="PwJ-m6-Lyz"/>
+                <outlet property="fourBtn" destination="ZGS-cq-DHm" id="HiR-Kz-Srr"/>
+                <outlet property="otherNumber" destination="IJd-SQ-JSn" id="FfK-tw-Onk"/>
+                <outlet property="scrollerView" destination="Pe5-mH-N6p" id="vbJ-gq-ncs"/>
+                <outlet property="secondBtn" destination="16x-XP-qvB" id="tKd-GJ-EFA"/>
+                <outlet property="sevenBtn" destination="glr-qX-3mL" id="cjV-Co-urS"/>
+                <outlet property="shiBtn" destination="djy-3U-GAI" id="JS0-D9-jhx"/>
+                <outlet property="sixBtn" destination="2ts-Vc-hU1" id="RFC-iu-RUI"/>
+                <outlet property="thereBtn" destination="Suv-Kf-khs" id="5q8-Qs-Lrd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="416" height="625"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pe5-mH-N6p">
+                    <rect key="frame" x="0.0" y="0.0" width="416" height="625"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wd5-kB-vl9">
+                            <rect key="frame" x="0.0" y="0.0" width="415" height="700"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="tailTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="djy-3U-GAI">
+                                    <rect key="frame" x="33" y="115" width="103" height="61"/>
+                                    <state key="normal" backgroundImage="jinbikuang2">
+                                        <attributedString key="attributedTitle">
+                                            <fragment content="6">
+                                                <attributes>
+                                                    <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="理想币">
+                                                <attributes>
+                                                    <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <font key="NSFont" size="13" name=".PingFangSC-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">
+   ¥6</string>
+                                                <attributes>
+                                                    <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </state>
+                                    <state key="selected" backgroundImage="jinbikuang1">
+                                        <attributedString key="attributedTitle">
+                                            <fragment content="6">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99848090277777779" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="理想币">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99848090277777779" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99848090277777779" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="   ¥ 6">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99848090277777779" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </state>
+                                    <connections>
+                                        <action selector="oneBtn:" destination="-1" eventType="touchUpInside" id="0a9-O4-gN6"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="16x-XP-qvB">
+                                    <rect key="frame" x="156" y="115" width="103" height="61"/>
+                                    <state key="normal" backgroundImage="jinbikuang2">
+                                        <attributedString key="attributedTitle">
+                                            <fragment content="30">
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="理想币">
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">
+   ¥30</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </state>
+                                    <state key="selected" backgroundImage="jinbikuang1">
+                                        <attributedString key="attributedTitle">
+                                            <fragment content="30">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99848090277777779" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="理想币">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99848090277777779" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">
+   ¥ 30</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99848090277777779" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </state>
+                                    <connections>
+                                        <action selector="towBtn:" destination="-1" eventType="touchUpInside" id="5cZ-iY-t5z"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Suv-Kf-khs">
+                                    <rect key="frame" x="279" y="115" width="103" height="61"/>
+                                    <state key="normal" backgroundImage="jinbikuang2">
+                                        <attributedString key="attributedTitle">
+                                            <fragment content="60">
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="理想币">
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">
+   ¥ 60</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </state>
+                                    <state key="selected" backgroundImage="jinbikuang1">
+                                        <attributedString key="attributedTitle">
+                                            <fragment content="60">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99848090277777779" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="理想币">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99848090277777779" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">
+   ¥ 60</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99848090277777779" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </state>
+                                    <connections>
+                                        <action selector="thereBtn:" destination="-1" eventType="touchUpInside" id="NCh-hW-ihq"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iif-f4-PCH">
+                                    <rect key="frame" x="156" y="201" width="103" height="61"/>
+                                    <state key="normal" backgroundImage="jinbikuang2">
+                                        <attributedString key="attributedTitle">
+                                            <fragment content="520">
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="理想币">
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name=".PingFangSC-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">
+   ¥ 500</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </state>
+                                    <state key="selected" backgroundImage="jinbikuang1">
+                                        <attributedString key="attributedTitle">
+                                            <fragment content="520">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99848090277777779" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="理想币">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99848090277777779" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name=".PingFangSC-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">
+   ¥ 500</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99848090277777779" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </state>
+                                    <connections>
+                                        <action selector="fiveBtn:" destination="-1" eventType="touchUpInside" id="PU3-eb-0HM"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2ts-Vc-hU1">
+                                    <rect key="frame" x="279" y="201" width="103" height="61"/>
+                                    <state key="normal" backgroundImage="jinbikuang2">
+                                        <attributedString key="attributedTitle">
+                                            <fragment content="1314">
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="理想币">
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">
+   ¥ 1200</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </state>
+                                    <state key="selected" backgroundImage="jinbikuang1">
+                                        <attributedString key="attributedTitle">
+                                            <fragment content="1314">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99019607843137258" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="理想币">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99019607843137258" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">
+   ¥1200</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99019607843137258" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </state>
+                                    <connections>
+                                        <action selector="sixBtn:" destination="-1" eventType="touchUpInside" id="QC7-h6-KJK"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZGS-cq-DHm">
+                                    <rect key="frame" x="33" y="201" width="103" height="61"/>
+                                    <state key="normal" backgroundImage="jinbikuang2">
+                                        <attributedString key="attributedTitle">
+                                            <fragment content="100">
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="理想币">
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">
+   ¥ 100</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </state>
+                                    <state key="selected" backgroundImage="jinbikuang1">
+                                        <attributedString key="attributedTitle">
+                                            <fragment content="100">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99848090277777779" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="理想币">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99848090277777779" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">
+   ¥ 100</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99848090277777779" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </state>
+                                    <connections>
+                                        <action selector="fourBtn:" destination="-1" eventType="touchUpInside" id="5Mc-sj-1cA"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nGd-qV-Nvq">
+                                    <rect key="frame" x="279" y="287" width="103" height="61"/>
+                                    <state key="normal" backgroundImage="jinbikuang2">
+                                        <attributedString key="attributedTitle">
+                                            <fragment content=" VIP">
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">
+¥360</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </state>
+                                    <state key="selected" backgroundImage="jinbikuang1">
+                                        <attributedString key="attributedTitle">
+                                            <fragment content="  VIP">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99019607843137258" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">
+¥ 360</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99019607843137258" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </state>
+                                    <connections>
+                                        <action selector="enghtBtn:" destination="-1" eventType="touchUpInside" id="xYH-i5-yfa"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="glr-qX-3mL">
+                                    <rect key="frame" x="33" y="287" width="103" height="61"/>
+                                    <state key="normal" backgroundImage="jinbikuang2">
+                                        <attributedString key="attributedTitle">
+                                            <fragment content=" 5200">
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="理想币">
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">
+    ¥ 4888</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </state>
+                                    <state key="selected" backgroundImage="jinbikuang1">
+                                        <attributedString key="attributedTitle">
+                                            <fragment content=" 5200">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99019607843137258" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="理想币">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99019607843137258" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="PingFangSC-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">
+    ¥ 4888</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99019607843137258" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                    </state>
+                                    <connections>
+                                        <action selector="sevenBtn:" destination="-1" eventType="touchUpInside" id="hMh-ia-EAF"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zID-pz-e8z">
+                                    <rect key="frame" x="40" y="373" width="335" height="39"/>
+                                    <state key="normal" image="Alipay">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buyBtn:" destination="-1" eventType="touchUpInside" id="qaY-7l-31B"/>
+                                    </connections>
+                                </button>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moneybg" translatesAutoresizingMaskIntoConstraints="NO" id="jaS-bP-bnQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="415" height="100"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="100" id="0Vb-60-uvP"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJi-Lq-q5g">
+                                    <rect key="frame" x="103.5" y="61.5" width="11" height="21.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="理想币 : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41D-i7-7Ns">
+                                    <rect key="frame" x="25" y="60" width="73.5" height="23"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVd-mt-SNS">
+                                    <rect key="frame" x="15" y="15" width="30" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="30" id="3xU-Qm-tok"/>
+                                        <constraint firstAttribute="height" constant="30" id="RNF-ho-1Mb"/>
+                                    </constraints>
+                                    <state key="normal" image="back"/>
+                                    <connections>
+                                        <action selector="backUpchontroller:" destination="-1" eventType="touchUpInside" id="xpQ-J4-EOh"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQw-Q9-n1U">
+                                    <rect key="frame" x="40.5" y="442" width="335" height="39"/>
+                                    <state key="normal" image="WeChat-2">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="weixinpayBtn:" destination="-1" eventType="touchUpInside" id="oGv-jf-MxC"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="充值" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Eg-Of-SKe">
+                                    <rect key="frame" x="193.5" y="21.5" width="29" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="其他数量" textAlignment="center" minimumFontSize="17" background="jinbikuang2" translatesAutoresizingMaskIntoConstraints="NO" id="IJd-SQ-JSn">
+                                    <rect key="frame" x="156.5" y="287" width="103" height="61"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="jaS-bP-bnQ" firstAttribute="leading" secondItem="wd5-kB-vl9" secondAttribute="leading" id="26w-CB-1ys"/>
+                                <constraint firstItem="glr-qX-3mL" firstAttribute="trailing" secondItem="ZGS-cq-DHm" secondAttribute="trailing" id="6CK-RY-iHX"/>
+                                <constraint firstItem="ZGS-cq-DHm" firstAttribute="top" secondItem="djy-3U-GAI" secondAttribute="bottom" constant="25" id="6iQ-XL-87L"/>
+                                <constraint firstItem="nGd-qV-Nvq" firstAttribute="top" secondItem="IJd-SQ-JSn" secondAttribute="top" id="7zc-Fr-R6v"/>
+                                <constraint firstItem="41D-i7-7Ns" firstAttribute="leading" secondItem="wd5-kB-vl9" secondAttribute="leading" constant="25" id="9Wa-Sl-pja"/>
+                                <constraint firstItem="6Eg-Of-SKe" firstAttribute="centerY" secondItem="EVd-mt-SNS" secondAttribute="centerY" id="9tc-Nr-a3S"/>
+                                <constraint firstItem="16x-XP-qvB" firstAttribute="centerX" secondItem="wd5-kB-vl9" secondAttribute="centerX" id="Av9-iJ-J84"/>
+                                <constraint firstAttribute="height" constant="700" id="FvZ-1z-Fss"/>
+                                <constraint firstItem="16x-XP-qvB" firstAttribute="leading" secondItem="djy-3U-GAI" secondAttribute="trailing" constant="20" id="GCe-2q-9LK"/>
+                                <constraint firstItem="Iif-f4-PCH" firstAttribute="centerX" secondItem="16x-XP-qvB" secondAttribute="centerX" id="Gky-uN-jeS"/>
+                                <constraint firstItem="EVd-mt-SNS" firstAttribute="leading" secondItem="wd5-kB-vl9" secondAttribute="leading" constant="15" id="HbH-GD-mpl"/>
+                                <constraint firstItem="Suv-Kf-khs" firstAttribute="leading" secondItem="16x-XP-qvB" secondAttribute="trailing" constant="20" id="Ici-7E-HY8"/>
+                                <constraint firstItem="ZGS-cq-DHm" firstAttribute="leading" secondItem="djy-3U-GAI" secondAttribute="leading" id="Kak-jG-UYV"/>
+                                <constraint firstItem="nGd-qV-Nvq" firstAttribute="centerY" secondItem="IJd-SQ-JSn" secondAttribute="centerY" id="LEb-jV-Ezq"/>
+                                <constraint firstItem="IJd-SQ-JSn" firstAttribute="top" secondItem="Iif-f4-PCH" secondAttribute="bottom" constant="25" id="Ljl-ML-11G"/>
+                                <constraint firstItem="zID-pz-e8z" firstAttribute="top" secondItem="IJd-SQ-JSn" secondAttribute="bottom" constant="25" id="MLz-vK-1K7"/>
+                                <constraint firstItem="nGd-qV-Nvq" firstAttribute="height" secondItem="IJd-SQ-JSn" secondAttribute="height" id="MjJ-a2-Ltw"/>
+                                <constraint firstItem="Iif-f4-PCH" firstAttribute="centerY" secondItem="ZGS-cq-DHm" secondAttribute="centerY" id="S44-yV-Q0E"/>
+                                <constraint firstItem="mQw-Q9-n1U" firstAttribute="top" secondItem="zID-pz-e8z" secondAttribute="bottom" constant="30" id="SAx-ry-uEa"/>
+                                <constraint firstItem="ZJi-Lq-q5g" firstAttribute="leading" secondItem="41D-i7-7Ns" secondAttribute="trailing" constant="5" id="Svs-jg-2SQ"/>
+                                <constraint firstItem="41D-i7-7Ns" firstAttribute="top" secondItem="EVd-mt-SNS" secondAttribute="bottom" constant="15" id="Var-Yx-so9"/>
+                                <constraint firstItem="glr-qX-3mL" firstAttribute="top" secondItem="IJd-SQ-JSn" secondAttribute="top" id="XxU-gZ-2x5"/>
+                                <constraint firstItem="16x-XP-qvB" firstAttribute="top" secondItem="jaS-bP-bnQ" secondAttribute="bottom" constant="15" id="YVr-kd-3C0"/>
+                                <constraint firstItem="Suv-Kf-khs" firstAttribute="centerY" secondItem="16x-XP-qvB" secondAttribute="centerY" id="ZIf-sH-PG6"/>
+                                <constraint firstItem="6Eg-Of-SKe" firstAttribute="centerX" secondItem="wd5-kB-vl9" secondAttribute="centerX" id="cVb-yG-c4u"/>
+                                <constraint firstItem="EVd-mt-SNS" firstAttribute="top" secondItem="wd5-kB-vl9" secondAttribute="top" constant="15" id="d0i-hV-CEe"/>
+                                <constraint firstItem="IJd-SQ-JSn" firstAttribute="width" secondItem="Iif-f4-PCH" secondAttribute="width" id="duD-ZG-f3R"/>
+                                <constraint firstItem="2ts-Vc-hU1" firstAttribute="centerX" secondItem="Suv-Kf-khs" secondAttribute="centerX" id="fJs-B7-o3R"/>
+                                <constraint firstItem="zID-pz-e8z" firstAttribute="leading" secondItem="wd5-kB-vl9" secondAttribute="leading" constant="40" id="fhd-pF-7nO"/>
+                                <constraint firstItem="IJd-SQ-JSn" firstAttribute="centerX" secondItem="Iif-f4-PCH" secondAttribute="centerX" id="iSx-cm-WF1"/>
+                                <constraint firstItem="djy-3U-GAI" firstAttribute="centerY" secondItem="16x-XP-qvB" secondAttribute="centerY" id="igy-ea-XD2"/>
+                                <constraint firstItem="IJd-SQ-JSn" firstAttribute="height" secondItem="Iif-f4-PCH" secondAttribute="height" id="ikN-JH-o1z"/>
+                                <constraint firstAttribute="trailing" secondItem="jaS-bP-bnQ" secondAttribute="trailing" id="pFy-m2-VBf"/>
+                                <constraint firstItem="ZJi-Lq-q5g" firstAttribute="centerY" secondItem="41D-i7-7Ns" secondAttribute="centerY" id="qVk-VO-pKK"/>
+                                <constraint firstItem="mQw-Q9-n1U" firstAttribute="centerX" secondItem="zID-pz-e8z" secondAttribute="centerX" id="sDs-rv-Fp2"/>
+                                <constraint firstItem="2ts-Vc-hU1" firstAttribute="centerY" secondItem="Iif-f4-PCH" secondAttribute="centerY" id="sXv-pG-eP6"/>
+                                <constraint firstAttribute="trailing" secondItem="zID-pz-e8z" secondAttribute="trailing" constant="40" id="ste-Ww-gEH"/>
+                                <constraint firstItem="nGd-qV-Nvq" firstAttribute="width" secondItem="IJd-SQ-JSn" secondAttribute="width" id="t9v-EP-490"/>
+                                <constraint firstItem="zID-pz-e8z" firstAttribute="centerX" secondItem="wd5-kB-vl9" secondAttribute="centerX" id="tzL-S5-zKX"/>
+                                <constraint firstItem="mQw-Q9-n1U" firstAttribute="width" secondItem="zID-pz-e8z" secondAttribute="width" id="uwc-GM-9kh"/>
+                                <constraint firstItem="jaS-bP-bnQ" firstAttribute="top" secondItem="wd5-kB-vl9" secondAttribute="top" id="xN3-Xw-X0l"/>
+                                <constraint firstItem="nGd-qV-Nvq" firstAttribute="leading" secondItem="2ts-Vc-hU1" secondAttribute="leading" id="xdu-xA-Kty"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="wd5-kB-vl9" secondAttribute="bottom" id="AmA-DH-eui"/>
+                        <constraint firstItem="wd5-kB-vl9" firstAttribute="leading" secondItem="Pe5-mH-N6p" secondAttribute="leading" id="GeO-d0-baM"/>
+                        <constraint firstItem="wd5-kB-vl9" firstAttribute="centerX" secondItem="Pe5-mH-N6p" secondAttribute="centerX" id="JUe-4C-Tfe"/>
+                        <constraint firstAttribute="trailing" secondItem="wd5-kB-vl9" secondAttribute="trailing" id="kZX-Ww-Z3w"/>
+                        <constraint firstItem="wd5-kB-vl9" firstAttribute="top" secondItem="Pe5-mH-N6p" secondAttribute="top" id="pdT-P6-kcp"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Pe5-mH-N6p" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ErW-oK-vbH"/>
+                <constraint firstAttribute="trailing" secondItem="Pe5-mH-N6p" secondAttribute="trailing" id="QHQ-TL-15A"/>
+                <constraint firstItem="Pe5-mH-N6p" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Vge-It-FIj"/>
+                <constraint firstAttribute="bottom" secondItem="Pe5-mH-N6p" secondAttribute="bottom" id="av4-Oz-udE"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-1025" y="-147"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Alipay" width="355" height="39"/>
+        <image name="WeChat-2" width="355" height="39"/>
+        <image name="back" width="7" height="15"/>
+        <image name="jinbikuang1" width="103" height="61"/>
+        <image name="jinbikuang2" width="103" height="61"/>
+        <image name="moneybg" width="375" height="139"/>
+    </resources>
+</document>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MineGirlTypeCell" id="gTV-IL-0wX" customClass="MineGirlTypeCell">
+            <rect key="frame" x="0.0" y="0.0" width="114" height="39"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="114" height="39"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0B-e4-5CY">
+                        <rect key="frame" x="23" y="3" width="69" height="32"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <state key="normal" title="代言" backgroundImage="gray">
+                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" backgroundImage="pink">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="I0B-e4-5CY" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="QF2-Mg-2Yz"/>
+                <constraint firstItem="I0B-e4-5CY" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="VuV-54-h14"/>
+            </constraints>
+            <size key="customSize" width="114" height="39"/>
+            <connections>
+                <outlet property="typeBtn" destination="I0B-e4-5CY" id="x7e-gd-vn2"/>
+            </connections>
+            <point key="canvasLocation" x="66" y="48.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="gray" width="69" height="32"/>
+        <image name="pink" width="69" height="32"/>
+    </resources>
+</document>

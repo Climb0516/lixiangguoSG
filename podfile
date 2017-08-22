@@ -1,0 +1,9 @@
+target 'ShareGirl' do
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'LLSegmentBar'
+pod 'MJExtension'
+pod 'Masonry'
+pod 'MJRefresh'
+end
+

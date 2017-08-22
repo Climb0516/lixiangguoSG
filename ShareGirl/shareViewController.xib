@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="shareViewController">
+            <connections>
+                <outlet property="userName" destination="3wt-g2-G8U" id="1IC-X7-bk2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="weWeiMa" destination="DCM-WF-P09" id="gFG-iD-UEF"/>
+                <outlet property="yaoqingNumber" destination="ckz-rd-Jic" id="3r0-Yr-EX6"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="386" height="620"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fmw-Ck-2Ga">
+                    <rect key="frame" x="44" y="100" width="298" height="320"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sharekuang" translatesAutoresizingMaskIntoConstraints="NO" id="b1C-OC-ZlJ">
+                            <rect key="frame" x="0.0" y="0.0" width="298" height="320"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="BTf-L0-di2">
+                            <rect key="frame" x="15" y="15" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="bIe-ry-fLw"/>
+                                <constraint firstAttribute="width" constant="60" id="eg8-p2-p27"/>
+                                <constraint firstAttribute="height" constant="60" id="hWE-C3-fgz"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="昵称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wt-g2-G8U">
+                            <rect key="frame" x="95" y="20" width="28" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="邀请码:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckz-rd-Jic">
+                            <rect key="frame" x="95" y="52" width="47" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="扫一扫上方二维码图案 , 下载App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qAc-IL-7tC">
+                            <rect key="frame" x="46" y="290" width="206" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DCM-WF-P09">
+                            <rect key="frame" x="15" y="95" width="268" height="185"/>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="b1C-OC-ZlJ" secondAttribute="trailing" id="31U-9L-y21"/>
+                        <constraint firstItem="b1C-OC-ZlJ" firstAttribute="leading" secondItem="Fmw-Ck-2Ga" secondAttribute="leading" id="AKW-Zs-PGO"/>
+                        <constraint firstItem="DCM-WF-P09" firstAttribute="top" secondItem="BTf-L0-di2" secondAttribute="bottom" constant="20" id="JJc-9u-bfr"/>
+                        <constraint firstItem="b1C-OC-ZlJ" firstAttribute="top" secondItem="Fmw-Ck-2Ga" secondAttribute="top" id="LZ9-Lx-Ev3"/>
+                        <constraint firstItem="DCM-WF-P09" firstAttribute="leading" secondItem="Fmw-Ck-2Ga" secondAttribute="leading" constant="15" id="OGE-RV-X2p"/>
+                        <constraint firstItem="3wt-g2-G8U" firstAttribute="top" secondItem="BTf-L0-di2" secondAttribute="top" id="SEn-Af-eIv"/>
+                        <constraint firstItem="3wt-g2-G8U" firstAttribute="leading" secondItem="BTf-L0-di2" secondAttribute="trailing" constant="20" id="Xko-6u-iao"/>
+                        <constraint firstItem="3wt-g2-G8U" firstAttribute="top" secondItem="Fmw-Ck-2Ga" secondAttribute="top" constant="20" id="Z9J-HO-wmd"/>
+                        <constraint firstItem="ckz-rd-Jic" firstAttribute="bottom" secondItem="BTf-L0-di2" secondAttribute="bottom" id="Z9q-rI-eci"/>
+                        <constraint firstAttribute="trailing" secondItem="DCM-WF-P09" secondAttribute="trailing" constant="15" id="aOQ-oX-FLA"/>
+                        <constraint firstAttribute="bottom" secondItem="DCM-WF-P09" secondAttribute="bottom" constant="40" id="hAs-Ls-4kR"/>
+                        <constraint firstItem="qAc-IL-7tC" firstAttribute="centerX" secondItem="Fmw-Ck-2Ga" secondAttribute="centerX" id="iFp-Nc-qoK"/>
+                        <constraint firstItem="DCM-WF-P09" firstAttribute="centerX" secondItem="Fmw-Ck-2Ga" secondAttribute="centerX" id="iNP-lP-5pI"/>
+                        <constraint firstItem="qAc-IL-7tC" firstAttribute="top" secondItem="DCM-WF-P09" secondAttribute="bottom" constant="10" id="nvO-bc-Oct"/>
+                        <constraint firstItem="ckz-rd-Jic" firstAttribute="top" secondItem="3wt-g2-G8U" secondAttribute="bottom" constant="15" id="rcE-bB-RUB"/>
+                        <constraint firstItem="BTf-L0-di2" firstAttribute="top" secondItem="Fmw-Ck-2Ga" secondAttribute="top" constant="15" id="wpb-gd-c3O"/>
+                        <constraint firstItem="BTf-L0-di2" firstAttribute="leading" secondItem="Fmw-Ck-2Ga" secondAttribute="leading" constant="15" id="ycs-va-xhb"/>
+                        <constraint firstItem="ckz-rd-Jic" firstAttribute="leading" secondItem="3wt-g2-G8U" secondAttribute="leading" id="yy8-Uf-7V2"/>
+                        <constraint firstAttribute="bottom" secondItem="b1C-OC-ZlJ" secondAttribute="bottom" id="zvj-Yv-zm7"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Z9q-rI-eci"/>
+                            <exclude reference="SEn-Af-eIv"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Fmw-Ck-2Ga" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Tx5-6b-3c2"/>
+                <constraint firstAttribute="bottom" secondItem="Fmw-Ck-2Ga" secondAttribute="bottom" constant="200" id="ZEI-rc-PP5"/>
+                <constraint firstItem="Fmw-Ck-2Ga" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="44" id="f4r-Le-ejN"/>
+                <constraint firstItem="Fmw-Ck-2Ga" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="hlb-Sx-82s"/>
+                <constraint firstAttribute="trailing" secondItem="Fmw-Ck-2Ga" secondAttribute="trailing" constant="44" id="yw1-rH-LQh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="498" y="317"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo" width="125" height="125"/>
+        <image name="sharekuang" width="265" height="293"/>
+    </resources>
+</document>
